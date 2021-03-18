@@ -8,6 +8,7 @@ public class Greeting {
 	public Greeting(String id, String content) {
 		this.id = id;
 		this.content = content;
+		System.out.println("Grettings Human");
 	}
 
 	public String getId() {
